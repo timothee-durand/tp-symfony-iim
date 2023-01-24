@@ -6,23 +6,12 @@ Avec MariaDB & MailDev
 Pour lancer le projet :
 ````shell
 docker-compose up -d
-docker exec symfony_docker composer create-project symfony/skeleton html
-sudo chown -R $USER ./
+docker exec symfony_docker (cd html && bin/console doctrine:database:create)
+docker exec symfony_docker (cd html && bin/console doctrine:migrations:migrate)
+docker exec symfony_docker (cd html && bin/console doctrine:fixtures:load)
+docker exec symfony_docker (cd html && bin/console api:import-disney-data)
 ````
 
-Pensez ensuite à aller exécuter toutes vos commandes depuis l'intérieur du container.
-
-Par exemple :
-````shell
-cd symfony_project
-composer require orm
-````
-(Demandez à Composer de NE PAS créer une config Docker pour la database)
-
-Enfin, modifiez la config DB dans le fichier .env de Symfony :
-````shell
-DATABASE_URL=mysql://root:ChangeMeLater@db:3306/symfony_db?serverVersion=mariadb-10.7.1
-````
 
 ## Original api url
 [GraphQL](https://api.disneyapi.dev/graphql)

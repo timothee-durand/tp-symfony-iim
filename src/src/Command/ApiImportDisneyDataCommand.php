@@ -23,7 +23,7 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 
 #[AsCommand(
     name: 'api:import-disney-data',
-    description: 'Add a short description for your command',
+    description: 'Import data from disney api',
 )]
 class ApiImportDisneyDataCommand extends Command
 {
