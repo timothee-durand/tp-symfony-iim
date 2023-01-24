@@ -11,6 +11,23 @@
       <excludeFolder url="file://$MODULE_DIR$/fnacApiConnector/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/http-client-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/intl" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/form" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/polyfill-uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/uid" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/polyfill-intl-icu" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/options-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/easycorp/easyadmin-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/zenstruck/callback" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/zenstruck/foundry" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/zenstruck/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/namshi/jose" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/lexik/jwt-authentication-bundle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
