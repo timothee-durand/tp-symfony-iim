@@ -9,7 +9,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ParkAttractionsRepository::class)]
-#[ApiResource]
+#[ApiResource(shortName: 'Park attractions', description: 'A Disney\'s park attraction.')]
 class ParkAttractions
 {
     #[ORM\Id]

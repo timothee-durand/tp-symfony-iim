@@ -1,4 +1,21 @@
 api_platform:
+  # The title of the API.
+  title: 'Disney Api'
+
+  # The description of the API.
+  description: 'An api to manage disney movies and characters'
+
+  # The version of the API.
+  version: '0.0.0'
+
+  formats:
+    json:
+      mime_types: [ 'application/json' ]
+    html:
+      mime_types: [ 'text/html' ]
+
+  # Set this to false if you want Webby to disappear.
+  show_webby: false
   swagger:
     api_keys:
       JWT:

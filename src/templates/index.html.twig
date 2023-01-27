@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Disney Api Register{% endblock %}
+
+{% block body %}
+    <main>
+        <div>
+            <h2>Disney Api</h2>
+            <p>Welcome to another unofficial disney api</p>
+            <p><a href="{{ path('app_user_register') }}">Register</a> or <a href="{{ path("app_login") }}">Login</a></p>
+            <p>You can also see the <a href="/api/docs">API documentation</a> </p>
+        </div>
+
+    </main>
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 95vh;
+            background-color: #f1f5f9;
+            font-family: system-ui;
+            text-align: center;
+        }
+
+        p {
+            margin: 0;
+            margin-bottom: 0.5em;
+        }
+    </style>
+{% endblock %}

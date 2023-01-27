@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: CharacterRepository::class)]
 #[ORM\Table(name: '`character`')]
-#[ApiResource]
+#[ApiResource(description: 'A character from a Disney production.')]
 class Character
 {
     #[ORM\Id]
