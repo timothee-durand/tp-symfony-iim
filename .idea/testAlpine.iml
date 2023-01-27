@@ -28,6 +28,8 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/namshi/jose" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/psr/clock" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/lexik/jwt-authentication-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/doctrine/doctrine-fixtures-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/doctrine/data-fixtures" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

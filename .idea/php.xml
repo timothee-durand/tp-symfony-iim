@@ -116,6 +116,8 @@
       <path value="$PROJECT_DIR$/src/vendor/namshi/jose" />
       <path value="$PROJECT_DIR$/src/vendor/psr/clock" />
       <path value="$PROJECT_DIR$/src/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/data-fixtures" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

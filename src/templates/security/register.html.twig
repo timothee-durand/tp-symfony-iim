@@ -1,8 +1,73 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Register!{% endblock %}
+{% block title %}Disney Api Register{% endblock %}
 
 {% block body %}
-<h2>Register</h2>
-{{ form(form) }}
+    <main>
+        <h2>Disney Api Register</h2>
+        <form>
+            {{ form(form) }}
+        </form>
+        <p>Already register ? <a href="{{ path('app_login') }}">Log in</a> </p>
+    </main>
+{% endblock %}
+
+{% block stylesheets %}
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 95vh;
+            background-color: #f1f5f9;
+            font-family: system-ui;
+        }
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            width: 50%;
+            margin: 0 auto;
+            box-shadow: 0 10px 15px -3px rgba(15, 23, 43, .1), 0 4px 6px -4px rgba(15, 23, 42, .1);;
+            padding: 20px;
+            border-radius: 5px;
+
+            background-color: #fff;
+
+        }
+
+        form div > div {
+            display: grid;
+            margin-bottom: 1rem;
+            gap: 0.2rem;
+        }
+
+        label {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+
+        input {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            font-family: system-ui;
+        }
+
+        button {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            font-family: system-ui;
+            background-color: #5368d5;
+            color: #f8f9fa;
+            cursor: pointer;
+            width: min-content;
+        }
+    </style>
 {% endblock %}

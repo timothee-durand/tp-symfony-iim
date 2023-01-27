@@ -8,8 +8,8 @@ Pour lancer le projet :
 docker-compose up -d
 docker exec symfony_docker (cd html && bin/console doctrine:database:create)
 docker exec symfony_docker (cd html && bin/console doctrine:migrations:migrate)
-docker exec symfony_docker (cd html && bin/console doctrine:fixtures:load)
-docker exec symfony_docker (cd html && bin/console api:import-disney-data)
+docker exec symfony_docker (cd html && bin/console doctrine:fixture:load)
+docker exec symfony_docker (cd html && bin/console api:import-disney-data 100)
 ````
 
 

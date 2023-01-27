@@ -135,7 +135,7 @@ class ApiImportDisneyDataCommand extends Command
         }
         if(!empty($arrayCharacter['videoGames'])) {
             foreach ($arrayCharacter['videoGames'] as $gameName) {
-                $game = $this->tvShowsRepository->findOneBy(['name' => $gameName]);
+                $game = $this->videoGamesRepository->findOneBy(['name' => $gameName]);
                 if(!$game) {
                     $game = new VideoGames();
                     $game->setName($gameName);
